@@ -1,7 +1,7 @@
 {
   "windows": {
     "main": {
-      "x": 29,
+      "x": -24,
       "y": 23,
       "width": 1280,
       "height": 720,
@@ -37,7 +37,7 @@
             "docks": [
               {
                 "active": 0,
-                "height": 326,
+                "height": 426,
                 "panels": [
                   "scene.panel"
                 ],
@@ -46,7 +46,7 @@
               },
               {
                 "active": 0,
-                "height": 300,
+                "height": 200,
                 "panels": [
                   "console.panel",
                   "timeline.panel"
@@ -74,6 +74,18 @@
         "row": true,
         "type": "dock"
       }
+    },
+    "User Manual": {
+      "x": 87,
+      "y": 23,
+      "width": 1200,
+      "height": 734
+    },
+    "worker": {
+      "x": 440,
+      "y": 228,
+      "width": 400,
+      "height": 300
     }
   }
 }
