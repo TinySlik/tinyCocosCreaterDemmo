@@ -1,10 +1,10 @@
 cc._RFpush(module, 'dcd01JbA/BAN4yXbr1QO3uI', 'Menu');
 // scripts/Menu.js
 
-"use strict";
+'use strict';
 
 cc.Class({
-    "extends": cc.Component,
+    'extends': cc.Component,
 
     properties: {
         // foo: {
@@ -17,15 +17,15 @@ cc.Class({
         // },
         // ...
         startBtn: {
-            "default": null,
+            'default': null,
             type: cc.Node
         },
         guanyu: {
-            "default": null,
+            'default': null,
             type: cc.Node
         },
         title: {
-            "default": null,
+            'default': null,
             type: cc.Node
         }
     },
@@ -36,7 +36,9 @@ cc.Class({
         this.title.runAction(cc.repeatForever(cc.sequence(cc.rotateTo(0.8, 10), cc.rotateTo(1.6, -20), cc.rotateTo(0.8, 10))));
     },
 
-    onClick: function onClick() {}
+    onClick: function onClick() {
+        cc.director.loadScene('game');
+    }
 
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {

@@ -33,7 +33,7 @@ cc.Class({
     },
     
     onClick: function() {
-        
+        cc.director.loadScene('game');
     }
 
     // called every frame, uncomment this function to activate update callback

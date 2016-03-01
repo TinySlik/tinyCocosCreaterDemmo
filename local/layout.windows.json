@@ -1,7 +1,7 @@
 {
   "windows": {
     "main": {
-      "x": -24,
+      "x": 0,
       "y": 23,
       "width": 1280,
       "height": 720,
@@ -74,12 +74,6 @@
         "row": true,
         "type": "dock"
       }
-    },
-    "User Manual": {
-      "x": 87,
-      "y": 23,
-      "width": 1200,
-      "height": 734
     },
     "worker": {
       "x": 440,
